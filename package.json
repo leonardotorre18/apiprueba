@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server/index.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/leonardotorre18/apiprueba#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-node-externals": "^3.0.0"
   }
 }
